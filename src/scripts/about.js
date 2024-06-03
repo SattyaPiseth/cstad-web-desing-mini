@@ -1,3 +1,6 @@
+import { Footer } from "../component/footer.js";
+import { Teammates } from "../component/teammates.js";
+
 let nav = `
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -41,6 +44,56 @@ let nav = `
   </div>
 </nav>`;
 document.getElementById('navbar').innerHTML = nav;
+
+let banner = `
+<section class="bg-white dark:bg-gray-900 pt-5">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div class="mr-auto place-self-center lg:col-span-7">
+          <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+              Welcome to Our Spring Cinema
+          </h1>
+          <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          Step into a world of cinematic wonder at Spring Cinema, where every screening is an extraordinary journey. From the latest blockbusters to timeless classics, we offer an unparalleled movie-going experience. Our state-of-the-art theaters provide comfort and cutting-edge technology for stunning visuals and sound. Join us for an unforgettable escape where every visit is a new adventure. Welcome to Spring Cinema, where movies are lived, not just watched.
+          </p>
+          <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black dark:text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 border border-gray-300">
+              Get started
+              <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+          </a>
+          <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black dark:text-white border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+              Speak to Sales
+          </a> 
+      </div>
+
+      <div class="hidden lg:mt-0 lg:col-span-5 lg:flex transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:rotate-6">
+        <img src="https://api.istad.co/media/image/c8c41751-3bc0-4f07-9658-7d95efbae692.png" alt="mockup" class="w-5/6 h-auto">
+      </div>
+  
+    </div>
+</section>
+`;
+document.getElementById('banner').innerHTML = banner;
+
+let vision = `
+<div class="bg-white dark:bg-gray-900">
+    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+        <img class="w-4/6 dark:hidden" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png"  alt="dashboard image">
+        <img class="w-4/6 hidden dark:block" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png" alt="dashboard image">
+        <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Mission</h2>
+            <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Mission Spring Cinema is dedicated to producing compelling films that captivate audiences with powerful storytelling. They aim to create immersive cinematic experiences that inspire, entertain, and provoke thought, fostering empathy, understanding, and connection among viewers. With a focus on quality, creativity, and innovation, Mission Spring Cinema pushes the boundaries of filmmaking while staying true to the essence of storytelling. Their films aim to leave a lasting impact on society by shaping conversations, challenging perceptions, and contributing to positive social change.</p>
+        </div>
+    </div>
+</div>
+`;
+document.getElementById('vision').innerHTML = vision;
+
+const render_teammates = document.querySelector("#teammates");
+render_teammates.innerHTML = Teammates();
+
+const render_footer = document.querySelector("#footer");
+render_footer.innerHTML = Footer();
 
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');

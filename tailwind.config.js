@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
 
-    },
+    },  
   fontFamily: {
     'body': [
       'Inter',
@@ -46,7 +46,8 @@ module.exports = {
   }
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('@tailwindcss/line-clamp'),
   ]
 }
 

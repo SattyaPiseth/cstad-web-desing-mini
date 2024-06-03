@@ -4,7 +4,7 @@ export const Footer = () => {
     <div class="mx-auto max-w-screen-xl">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
-                <a href="https://penguim.org" class="flex items-center">
+                <a href="#" class="flex items-center">
                     <img src="https://api.istad.co/media/image/c8c41751-3bc0-4f07-9658-7d95efbae692.png" class="mr-3 h-8" alt="FlowBite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SPRING CINEMA</span>
                 </a>
