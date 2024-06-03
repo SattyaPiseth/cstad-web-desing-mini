@@ -1,6 +1,3 @@
-import { Banner } from "../component/banner";
-import { Content } from "../component/content";
-
 let nav = `
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -43,22 +40,7 @@ let nav = `
   </div>
   </div>
 </nav>`;
-
-const render_banner = document.querySelector("#banner");
-const render_content = document.querySelector("#content");
-
-render_banner.innerHTML = Banner();
-render_content.innerHTML = Content();
-
-
-
-
-
-
-
-
-
-
+document.getElementById('nav').innerHTML = nav;
 
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
