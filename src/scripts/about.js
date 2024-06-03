@@ -40,7 +40,7 @@ let nav = `
   </div>
   </div>
 </nav>`;
-document.getElementById('nav').innerHTML = nav;
+document.getElementById('navbar').innerHTML = nav;
 
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
