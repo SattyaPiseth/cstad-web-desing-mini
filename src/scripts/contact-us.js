@@ -1,3 +1,6 @@
+import {Footer} from "../component/footer.js";
+import {Contact} from "../component/contact.js";
+
 let nav = `
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -44,6 +47,12 @@ let nav = `
   </div>
 </nav>`;
 document.getElementById('navbar').innerHTML = nav;
+
+const render_contact = Contact();
+document.getElementById('contact').innerHTML = render_contact;
+
+const render_footer = Footer();
+document.getElementById('footer').innerHTML = render_footer;
 
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
