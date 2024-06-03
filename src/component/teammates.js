@@ -15,7 +15,7 @@ export const Teammates = () => {
         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 animate-fade-in-left">
           <!-- Content for first team member -->
           <a href="#">
-          <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://ouch-cdn2.icons8.com/m0XHqAdA2NWQCvzTcILTOGhV3bFVb3BiehxhlLu1qm8/rs:fit:368:397/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOC9j/YjgyZWI3Yi05MmEz/LTQ3MTktYWY2Ni03/MDQzMzE4YjNkYTMu/cG5n.png" alt="Bonnie Avatar">
+          <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg transform hover:-translate-y-1 hover:scale-105" src="https://ouch-cdn2.icons8.com/m0XHqAdA2NWQCvzTcILTOGhV3bFVb3BiehxhlLu1qm8/rs:fit:368:397/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvOC9j/YjgyZWI3Yi05MmEz/LTQ3MTktYWY2Ni03/MDQzMzE4YjNkYTMu/cG5n.png" alt="Bonnie Avatar">
         </a>
         <div class="p-5">
           <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -61,7 +61,7 @@ export const Teammates = () => {
         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 animate-fade-in-right">
           <!-- Content for second team member -->
           <a href="#">
-              <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://ouch-cdn2.icons8.com/cRgL8deJSJB46N7B8VTn7oLXhPrS0xfgqLkJEylEn_E/rs:fit:368:405/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDAw/LzA5NGJjOTQ4LTcx/Y2MtNDdkZS05ZTRj/LThmYmJlZDIzOTEx/Ni5wbmc.png" alt="Jese Avatar">
+              <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg transform hover:-translate-y-1 hover:scale-105" src="https://ouch-cdn2.icons8.com/cRgL8deJSJB46N7B8VTn7oLXhPrS0xfgqLkJEylEn_E/rs:fit:368:405/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDAw/LzA5NGJjOTQ4LTcx/Y2MtNDdkZS05ZTRj/LThmYmJlZDIzOTEx/Ni5wbmc.png" alt="Jese Avatar">
             </a>
             <div class="p-5">
               <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -107,7 +107,7 @@ export const Teammates = () => {
         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 animate-fade-in-left">
           <!-- Content for third team member -->
           <a href="#">
-              <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://ouch-cdn2.icons8.com/iG_fvWCYuxZt_RsfIkgb7xllGxJx5AGgGjq_rWSLI-A/rs:fit:368:347/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjAx/LzY2OGQyM2E2LWZi/ZWQtNDcwMC05ZWQx/LTUyYTAyOGU4NWU1/OS5wbmc.png" alt="Michael Avatar">
+              <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg transform hover:-translate-y-1 hover:scale-105" src="https://ouch-cdn2.icons8.com/iG_fvWCYuxZt_RsfIkgb7xllGxJx5AGgGjq_rWSLI-A/rs:fit:368:347/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjAx/LzY2OGQyM2E2LWZi/ZWQtNDcwMC05ZWQx/LTUyYTAyOGU4NWU1/OS5wbmc.png" alt="Michael Avatar">
             </a>
             <div class="p-5">
               <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -153,7 +153,7 @@ export const Teammates = () => {
         <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 animate-fade-in-right">
           <!-- Content for fourth team member -->
           <a href="#">
-          <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://ouch-cdn2.icons8.com/W_LgEwaG-itoOjU5ETZBcwyIIzyE6hTTm1lWSUs8KQg/rs:fit:368:397/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMzcw/L2VkMDgxNWEwLTFj/ODctNDg1YS1iYTFj/LTY0YzZkNDRkMTUz/NC5wbmc.png" alt="Sofia Avatar">
+          <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg transform hover:-translate-y-1 hover:scale-105" src="https://ouch-cdn2.icons8.com/W_LgEwaG-itoOjU5ETZBcwyIIzyE6hTTm1lWSUs8KQg/rs:fit:368:397/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMzcw/L2VkMDgxNWEwLTFj/ODctNDg1YS1iYTFj/LTY0YzZkNDRkMTUz/NC5wbmc.png" alt="Sofia Avatar">
         </a>
         <div class="p-5">
           <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">

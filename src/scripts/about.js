@@ -17,8 +17,11 @@ let nav = `
         </svg>
     </button>
     <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
-        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="2 1 20 22" xmlns="http://www.w3.org/2000/svg">
+<!--            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>-->
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.715 15.15A6.5 6.5 0 0 1 9 6.035C6.106 6.922 4 9.645 4 12.867c0 3.94 3.153 7.136 7.042 7.136 3.101 0 5.734-2.032 6.673-4.853Z" class="fill-transparent"></path>
+            <path d="m17.715 15.15.95.316a1 1 0 0 0-1.445-1.185l.495.869ZM9 6.035l.846.534a1 1 0 0 0-1.14-1.49L9 6.035Zm8.221 8.246a5.47 5.47 0 0 1-2.72.718v2a7.47 7.47 0 0 0 3.71-.98l-.99-1.738Zm-2.72.718A5.5 5.5 0 0 1 9 9.5H7a7.5 7.5 0 0 0 7.5 7.5v-2ZM9 9.5c0-1.079.31-2.082.845-2.93L8.153 5.5A7.47 7.47 0 0 0 7 9.5h2Zm-4 3.368C5 10.089 6.815 7.75 9.292 6.99L8.706 5.08C5.397 6.094 3 9.201 3 12.867h2Zm6.042 6.136C7.718 19.003 5 16.268 5 12.867H3c0 4.48 3.588 8.136 8.042 8.136v-2Zm5.725-4.17c-.81 2.433-3.074 4.17-5.725 4.17v2c3.552 0 6.553-2.327 7.622-5.537l-1.897-.632Z" class="fill-slate-400 dark:fill-slate-500"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17 3a1 1 0 0 1 1 1 2 2 0 0 0 2 2 1 1 0 1 1 0 2 2 2 0 0 0-2 2 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 1 1 0-2 2 2 0 0 0 2-2 1 1 0 0 1 1-1Z" class="fill-slate-400 dark:fill-slate-500"></path>
         </svg>
         <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
@@ -78,8 +81,8 @@ document.getElementById('banner').innerHTML = banner;
 let vision = `
 <div class="bg-white dark:bg-gray-900">
     <div class="lg:flex w-full md:flex justify-center gap-16 items-center md:pt-10 lg:pt-0">
-        <img class="w-2/6 dark:hidden" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png"  alt="dashboard image">
-        <img class="w-2/6 hidden dark:block" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png" alt="dashboard image">
+        <img class="w-2/6 dark:hidden  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:rotate-12" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png"  alt="dashboard image">
+        <img class="w-2/6 hidden dark:block  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:rotate-12" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png" alt="dashboard image">
         <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Mission</h2>
             <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Mission Spring Cinema is dedicated to producing compelling films that captivate audiences with powerful storytelling. They aim to create immersive cinematic experiences that inspire, entertain, and provoke thought, fostering empathy, understanding, and connection among viewers. With a focus on quality, creativity, and innovation, Mission Spring Cinema pushes the boundaries of filmmaking while staying true to the essence of storytelling. Their films aim to leave a lasting impact on society by shaping conversations, challenging perceptions, and contributing to positive social change.</p>
