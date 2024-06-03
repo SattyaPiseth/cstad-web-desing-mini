@@ -1,4 +1,4 @@
-import {Navbar} from "../component/navbar.js";
+import {Navbar} from "../navbar.js";
 import {Banner} from "../component/banner.js";
 import {Content} from "../component/content.js";
 import {movies} from "../data/api-movie.js";
