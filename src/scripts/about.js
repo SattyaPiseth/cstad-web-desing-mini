@@ -40,10 +40,8 @@ let nav = `
   </div>
   </div>
 </nav>`;
-// START FOOTER
-document.getElementById('navbar').innerHTML = nav;
+const render_footer = document.querySelector("#footer");
 render_footer.innerHTML = Footer();
-// END FOOTER
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
