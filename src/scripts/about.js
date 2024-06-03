@@ -49,7 +49,7 @@ let nav = `
 document.getElementById('navbar').innerHTML = nav;
 
 let banner = `
-<section class="bg-white dark:bg-gray-900 pt-5">
+<section class="bg-white dark:bg-gray-900 pt-10">
     <div class="lg:flex w-full md:flex justify-center gap-16 items-center md:pt-10 lg:pt-0 mt-10">
           <div class="mr-auto place-self-center lg:col-span-7">
           <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
