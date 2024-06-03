@@ -47,7 +47,7 @@ document.getElementById('navbar').innerHTML = nav;
 
 let banner = `
 <section class="bg-white dark:bg-gray-900 pt-5">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div class="lg:flex w-full md:flex justify-center gap-16 items-center md:pt-10 lg:pt-0 mt-10">
           <div class="mr-auto place-self-center lg:col-span-7">
           <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               Welcome to Our Spring Cinema
@@ -77,9 +77,9 @@ document.getElementById('banner').innerHTML = banner;
 
 let vision = `
 <div class="bg-white dark:bg-gray-900">
-    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <img class="w-4/6 dark:hidden" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png"  alt="dashboard image">
-        <img class="w-4/6 hidden dark:block" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png" alt="dashboard image">
+    <div class="lg:flex w-full md:flex justify-center gap-16 items-center md:pt-10 lg:pt-0">
+        <img class="w-2/6 dark:hidden" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png"  alt="dashboard image">
+        <img class="w-2/6 hidden dark:block" src="https://k-quicksight.istad.co/_next/static/media/mission_(2).09addfe8.png" alt="dashboard image">
         <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Mission</h2>
             <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Mission Spring Cinema is dedicated to producing compelling films that captivate audiences with powerful storytelling. They aim to create immersive cinematic experiences that inspire, entertain, and provoke thought, fostering empathy, understanding, and connection among viewers. With a focus on quality, creativity, and innovation, Mission Spring Cinema pushes the boundaries of filmmaking while staying true to the essence of storytelling. Their films aim to leave a lasting impact on society by shaping conversations, challenging perceptions, and contributing to positive social change.</p>
