@@ -4,7 +4,7 @@ export const CtaSection = () => {
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Text Section -->
-        <div class="max-w-screen-md">
+        <div class="max-w-screen-md pt-10 mt-5">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Let's find more that brings us together.
           </h2>
