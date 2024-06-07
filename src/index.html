@@ -7,9 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
 </head>
-<body>
+<body class="dark:bg-gray-900">
 <!--    HEADER START    -->
 <header id="navbar">
 
@@ -19,8 +28,8 @@
 <!--    MAIN CONTENT START  -->
 <main>
     <!--    MAIN BANNER START   -->
-    <section>
-        <div id="banner" class="bg-white dark:bg-gray-900 mt-5">
+    <section class="container mx-auto pt-12">
+        <div id="banner" class="bg-white dark:bg-gray-900 mt-12">
 
         </div>
     </section>
@@ -39,8 +48,7 @@
     <!--    CONTENT END  -->
 
     <!--    Popular course START-->
-    <section id="card" class=" mx-auto flex flex-wrap justify-center gap-5">
-
+    <section id="card" class=" mx-auto flex flex-wrap justify-center gap-5 pb-5">
     </section>
     <!--    Popular course END  -->
     <!--    Action box START    -->
@@ -55,20 +63,21 @@
     <section></section>
     <!--    Reviews END  -->
 </main>
-
 <!--    MAIN CONTENT END    -->
+
 <!--    FOOTER START    -->
 <footer id="footer" class="my-5">
 
 </footer>
 <!--    FOOTER END  -->
 
-<script src="../../node_modules/flowbite/dist/flowbite.min.js"></script>
+<script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
 <!--    SCRIPT START    -->
 <!-- Alpine.js for Tailwind UI interactivity -->
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <!-- script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-<script type="module" src="./../scripts/script.js"></script>
+<script type="module" src="scripts/script.js"></script>
+<!--    SCRIPT END  -->
 </body>
 </html>

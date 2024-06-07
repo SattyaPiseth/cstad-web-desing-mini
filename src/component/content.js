@@ -14,7 +14,7 @@ export const Content = () =>{
     </div>
     <div class="m-5 p-5">
         <div class=" mx-auto text-center lg:col-span-8 animate__animated animate__fadeInUp">
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 transition duration-300 transform hover:scale-105">Most Popular Movie</h2>
+            <h2 class="dark:text-white text-4xl lg:text-5xl font-bold text-gray-900 transition duration-300 transform hover:scale-105">Most Popular Movie</h2>
         </div>
     </div>
 
