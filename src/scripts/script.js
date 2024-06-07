@@ -18,6 +18,6 @@ render_banner.innerHTML = Banner();
 render_content.innerHTML = Content();
 render_counter.innerHTML = Counter();
 render_footer.innerHTML = Footer();
-render_card.innerHTML = movies.map((movie) => {
-    return Card(movie);
-})
+movies.map((movie) => {
+    render_card.innerHTML += Card(movie);
+});
