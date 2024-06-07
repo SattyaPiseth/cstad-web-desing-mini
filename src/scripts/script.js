@@ -19,10 +19,8 @@ render_content.innerHTML = Content();
 render_counter.innerHTML = Counter();
 render_footer.innerHTML = Footer();
 movies.map((movie) => {
-<<<<<<< HEAD
     render_card.innerHTML += Card(movie);
-});
-=======
+
    return render_card.innerHTML += Card(movie);
 });
 
@@ -66,5 +64,3 @@ themeToggleBtn.addEventListener('click', function () {
     }
 
 });
-
->>>>>>> c9ab64adfe06186cc58f152ec123b6cb2d30af6d
